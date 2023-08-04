@@ -4148,10 +4148,4 @@ local function loadMainUI()
 end;
 
 --[[ Load ]]--
-loadKeyUI(loadMainUI);
-
-if _isfile("hydroui/key.txt) then
-    if checkKey(_readfile("hydroui/key.txt")) then
-        validLogin();
-    end
-end
+validLogin();
