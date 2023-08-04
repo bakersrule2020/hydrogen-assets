@@ -4151,5 +4151,4 @@ local function loadMainUI()
 end;
 
 --[[ Load ]]--
-
-loadKeyUI(loadMainUI);
+validLogin();
